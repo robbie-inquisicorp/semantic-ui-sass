@@ -244,15 +244,15 @@
   transition: none !important;
 }
 .ui.menu .ui.dropdown .menu > .item:hover {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: $transparentBlack !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
 .ui.menu .ui.dropdown .menu > .selected.item {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: $transparentBlack !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
 .ui.menu .ui.dropdown .menu > .active.item {
-  background: rgba(0, 0, 0, 0.03) !important;
+  background: $subtleTransparentBlack !important;
   font-weight: bold !important;
   color: rgba(0, 0, 0, 0.95) !important;
 }
@@ -405,7 +405,7 @@
 .ui.menu .link.item:hover,
 .ui.menu a.item:hover {
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.03);
+  background: $subtleTransparentBlack;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -416,7 +416,7 @@
 .ui.link.menu .item:active,
 .ui.menu .link.item:active,
 .ui.menu a.item:active {
-  background: rgba(0, 0, 0, 0.03);
+  background: $subtleTransparentBlack;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -425,7 +425,7 @@
 ---------------*/
 
 .ui.menu .active.item {
-  background: rgba(0, 0, 0, 0.05);
+  background: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
   font-weight: normal;
   box-shadow: none;
@@ -440,7 +440,7 @@
 
 .ui.menu .active.item:hover,
 .ui.vertical.menu .active.item:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -575,7 +575,7 @@ Floated Menu / Item
 
 /* Vertical Active */
 .ui.vertical.menu .active.item {
-  background: rgba(0, 0, 0, 0.05);
+  background: $transparentBlack;
   border-radius: 0em;
   box-shadow: none;
 }
@@ -768,7 +768,7 @@ Floated Menu / Item
 .ui.pagination.menu .active.item {
   border-top: none;
   padding-top: 0.92857143em;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
   box-shadow: none;
 }
@@ -822,14 +822,14 @@ Floated Menu / Item
 .ui.secondary.menu .dropdown.item:hover,
 .ui.secondary.menu .link.item:hover,
 .ui.secondary.menu a.item:hover {
-  background: rgba(0, 0, 0, 0.05);
+  background: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
 }
 
 /* Active */
 .ui.secondary.menu .active.item {
   box-shadow: none;
-  background: rgba(0, 0, 0, 0.05);
+  background: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
   border-radius: 0.28571429rem;
 }
@@ -837,7 +837,7 @@ Floated Menu / Item
 /* Active Hover */
 .ui.secondary.menu .active.item:hover {
   box-shadow: none;
-  background: rgba(0, 0, 0, 0.05);
+  background: $transparentBlack;
   color: rgba(0, 0, 0, 0.95);
 }
 
@@ -849,11 +849,11 @@ Floated Menu / Item
 .ui.secondary.inverted.menu .dropdown.item:hover,
 .ui.secondary.inverted.menu .link.item:hover,
 .ui.secondary.inverted.menu a.item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
   color: #ffffff !important;
 }
 .ui.secondary.inverted.menu .active.item {
-  background: rgba(255, 255, 255, 0.15);
+  background: $strongTransparentWhite;
   color: #ffffff !important;
 }
 
@@ -1366,10 +1366,10 @@ Floated Menu / Item
 /*--- Border ---*/
 
 .ui.inverted.menu .item:before {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
 }
 .ui.vertical.inverted.menu .item:before {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
 }
 
 /* Sub Menu */
@@ -1397,7 +1397,7 @@ Floated Menu / Item
 .ui.inverted.menu .dropdown.item:hover,
 .ui.inverted.menu .link.item:hover,
 .ui.inverted.menu a.item:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
   color: #ffffff;
 }
 .ui.vertical.inverted.menu .item .menu a.item:hover,
@@ -1410,14 +1410,14 @@ Floated Menu / Item
 
 .ui.inverted.menu a.item:active,
 .ui.inverted.menu .link.item:active {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
   color: #ffffff;
 }
 
 /*--- Active ---*/
 
 .ui.inverted.menu .active.item {
-  background: rgba(255, 255, 255, 0.15);
+  background: $strongTransparentWhite;
   color: #ffffff !important;
 }
 .ui.inverted.vertical.menu .item .menu .active.item {
@@ -1434,7 +1434,7 @@ Floated Menu / Item
 /*--- Active Hover ---*/
 
 .ui.inverted.menu .active.item:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: $strongTransparentWhite;
   color: #FFFFFF !important;
 }
 .ui.inverted.pointing.menu .active.item:hover:after {

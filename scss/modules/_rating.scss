@@ -55,7 +55,7 @@
 /* Inactive Icon */
 .ui.rating .icon {
   background: transparent;
-  color: rgba(0, 0, 0, 0.15);
+  color: $veryStrongTransparentBlack;
 }
 
 /* Active Icon */
@@ -81,7 +81,7 @@
   width: 1.25em;
   height: auto;
   background: transparent;
-  color: rgba(0, 0, 0, 0.15);
+  color: $veryStrongTransparentBlack;
   text-shadow: none;
 }
 
@@ -108,7 +108,7 @@
   width: 1.4em;
   height: auto;
   background: transparent;
-  color: rgba(0, 0, 0, 0.15);
+  color: $veryStrongTransparentBlack;
   text-shadow: none !important;
 }
 

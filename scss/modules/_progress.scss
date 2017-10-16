@@ -288,7 +288,7 @@
 ---------------*/
 
 .ui.inverted.progress {
-  background: rgba(255, 255, 255, 0.08);
+  background: $transparentWhite;
   border: none;
 }
 .ui.inverted.progress .bar {

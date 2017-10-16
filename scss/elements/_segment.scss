@@ -178,7 +178,7 @@
   bottom: -3px;
   left: 0%;
   border-top: 1px solid rgba(34, 36, 38, 0.15);
-  background: rgba(0, 0, 0, 0.03);
+  background: $subtleTransparentBlack;
   width: 100%;
   height: 6px;
   visibility: visible;
@@ -200,7 +200,7 @@
 .ui.stacked.inverted.segments:after,
 .ui.stacked.inverted.segment:before,
 .ui.stacked.inverted.segment:after {
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: $subtleTransparentBlack;
   border-top: 1px solid rgba(34, 36, 38, 0.35);
 }
 
