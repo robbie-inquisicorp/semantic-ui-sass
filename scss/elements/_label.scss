@@ -516,8 +516,8 @@ a.ui.active.label:ActiveHover:before {
 /* Link */
 .ui.red.labels .label:hover,
 a.ui.red.label:hover {
-  background-color: #d01919 !important;
-  border-color: #d01919 !important;
+  background-color: $redHover !important;
+  border-color: $redHover !important;
   color: #FFFFFF !important;
 }
 
@@ -541,8 +541,8 @@ a.ui.red.label:hover {
 .ui.basic.red.labels a.label:hover,
 a.ui.basic.red.label:hover {
   background-color: #FFFFFF !important;
-  color: #d01919 !important;
-  border-color: #d01919 !important;
+  color: $redHover !important;
+  border-color: $redHover !important;
 }
 
 /*--- Orange ---*/
@@ -557,8 +557,8 @@ a.ui.basic.red.label:hover {
 /* Link */
 .ui.orange.labels .label:hover,
 a.ui.orange.label:hover {
-  background-color: #f26202 !important;
-  border-color: #f26202 !important;
+  background-color: $orangeHover !important;
+  border-color: $orangeHover !important;
   color: #FFFFFF !important;
 }
 
@@ -582,8 +582,8 @@ a.ui.orange.label:hover {
 .ui.basic.orange.labels a.label:hover,
 a.ui.basic.orange.label:hover {
   background-color: #FFFFFF !important;
-  color: #f26202 !important;
-  border-color: #f26202 !important;
+  color: $orangeHover !important;
+  border-color: $orangeHover !important;
 }
 
 /*--- Yellow ---*/
@@ -598,8 +598,8 @@ a.ui.basic.orange.label:hover {
 /* Link */
 .ui.yellow.labels .label:hover,
 a.ui.yellow.label:hover {
-  background-color: #eaae00 !important;
-  border-color: #eaae00 !important;
+  background-color: $yellowHover !important;
+  border-color: $yellowHover !important;
   color: #FFFFFF !important;
 }
 
@@ -623,8 +623,8 @@ a.ui.yellow.label:hover {
 .ui.basic.yellow.labels a.label:hover,
 a.ui.basic.yellow.label:hover {
   background-color: #FFFFFF !important;
-  color: #eaae00 !important;
-  border-color: #eaae00 !important;
+  color: $yellowHover !important;
+  border-color: $yellowHover !important;
 }
 
 /*--- Olive ---*/
@@ -639,8 +639,8 @@ a.ui.basic.yellow.label:hover {
 /* Link */
 .ui.olive.labels .label:hover,
 a.ui.olive.label:hover {
-  background-color: #a7bd0d !important;
-  border-color: #a7bd0d !important;
+  background-color: $oliveHover !important;
+  border-color: $oliveHover !important;
   color: #FFFFFF !important;
 }
 
@@ -664,8 +664,8 @@ a.ui.olive.label:hover {
 .ui.basic.olive.labels a.label:hover,
 a.ui.basic.olive.label:hover {
   background-color: #FFFFFF !important;
-  color: #a7bd0d !important;
-  border-color: #a7bd0d !important;
+  color: $oliveHover !important;
+  border-color: $oliveHover !important;
 }
 
 /*--- Green ---*/
@@ -680,8 +680,8 @@ a.ui.basic.olive.label:hover {
 /* Link */
 .ui.green.labels .label:hover,
 a.ui.green.label:hover {
-  background-color: #16ab39 !important;
-  border-color: #16ab39 !important;
+  background-color: $greenHover !important;
+  border-color: $greenHover !important;
   color: #FFFFFF !important;
 }
 
@@ -705,8 +705,8 @@ a.ui.green.label:hover {
 .ui.basic.green.labels a.label:hover,
 a.ui.basic.green.label:hover {
   background-color: #FFFFFF !important;
-  color: #16ab39 !important;
-  border-color: #16ab39 !important;
+  color: $greenHover !important;
+  border-color: $greenHover !important;
 }
 
 /*--- Teal ---*/
@@ -721,8 +721,8 @@ a.ui.basic.green.label:hover {
 /* Link */
 .ui.teal.labels .label:hover,
 a.ui.teal.label:hover {
-  background-color: #009c95 !important;
-  border-color: #009c95 !important;
+  background-color: $tealHover !important;
+  border-color: $tealHover !important;
   color: #FFFFFF !important;
 }
 
@@ -746,8 +746,8 @@ a.ui.teal.label:hover {
 .ui.basic.teal.labels a.label:hover,
 a.ui.basic.teal.label:hover {
   background-color: #FFFFFF !important;
-  color: #009c95 !important;
-  border-color: #009c95 !important;
+  color: $tealHover !important;
+  border-color: $tealHover !important;
 }
 
 /*--- Blue ---*/
@@ -762,8 +762,8 @@ a.ui.basic.teal.label:hover {
 /* Link */
 .ui.blue.labels .label:hover,
 a.ui.blue.label:hover {
-  background-color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  background-color: $blueHover !important;
+  border-color: $blueHover !important;
   color: #FFFFFF !important;
 }
 
@@ -787,8 +787,8 @@ a.ui.blue.label:hover {
 .ui.basic.blue.labels a.label:hover,
 a.ui.basic.blue.label:hover {
   background-color: #FFFFFF !important;
-  color: #1678c2 !important;
-  border-color: #1678c2 !important;
+  color: $blueHover !important;
+  border-color: $blueHover !important;
 }
 
 /*--- Violet ---*/
@@ -803,8 +803,8 @@ a.ui.basic.blue.label:hover {
 /* Link */
 .ui.violet.labels .label:hover,
 a.ui.violet.label:hover {
-  background-color: #5829bb !important;
-  border-color: #5829bb !important;
+  background-color: $violetHover !important;
+  border-color: $violetHover !important;
   color: #FFFFFF !important;
 }
 
@@ -828,8 +828,8 @@ a.ui.violet.label:hover {
 .ui.basic.violet.labels a.label:hover,
 a.ui.basic.violet.label:hover {
   background-color: #FFFFFF !important;
-  color: #5829bb !important;
-  border-color: #5829bb !important;
+  color: $violetHover !important;
+  border-color: $violetHover !important;
 }
 
 /*--- Purple ---*/
@@ -844,8 +844,8 @@ a.ui.basic.violet.label:hover {
 /* Link */
 .ui.purple.labels .label:hover,
 a.ui.purple.label:hover {
-  background-color: #9627ba !important;
-  border-color: #9627ba !important;
+  background-color: $purpleHover !important;
+  border-color: $purpleHover !important;
   color: #FFFFFF !important;
 }
 
@@ -869,8 +869,8 @@ a.ui.purple.label:hover {
 .ui.basic.purple.labels a.label:hover,
 a.ui.basic.purple.label:hover {
   background-color: #FFFFFF !important;
-  color: #9627ba !important;
-  border-color: #9627ba !important;
+  color: $purpleHover !important;
+  border-color: $purpleHover !important;
 }
 
 /*--- Pink ---*/
@@ -885,8 +885,8 @@ a.ui.basic.purple.label:hover {
 /* Link */
 .ui.pink.labels .label:hover,
 a.ui.pink.label:hover {
-  background-color: #e61a8d !important;
-  border-color: #e61a8d !important;
+  background-color: $pinkHover !important;
+  border-color: $pinkHover !important;
   color: #FFFFFF !important;
 }
 
@@ -910,8 +910,8 @@ a.ui.pink.label:hover {
 .ui.basic.pink.labels a.label:hover,
 a.ui.basic.pink.label:hover {
   background-color: #FFFFFF !important;
-  color: #e61a8d !important;
-  border-color: #e61a8d !important;
+  color: $pinkHover !important;
+  border-color: $pinkHover !important;
 }
 
 /*--- Brown ---*/
@@ -926,8 +926,8 @@ a.ui.basic.pink.label:hover {
 /* Link */
 .ui.brown.labels .label:hover,
 a.ui.brown.label:hover {
-  background-color: #975b33 !important;
-  border-color: #975b33 !important;
+  background-color: $brownHover !important;
+  border-color: $brownHover !important;
   color: #FFFFFF !important;
 }
 
@@ -951,8 +951,8 @@ a.ui.brown.label:hover {
 .ui.basic.brown.labels a.label:hover,
 a.ui.basic.brown.label:hover {
   background-color: #FFFFFF !important;
-  color: #975b33 !important;
-  border-color: #975b33 !important;
+  color: $brownHover !important;
+  border-color: $brownHover !important;
 }
 
 /*--- Grey ---*/
