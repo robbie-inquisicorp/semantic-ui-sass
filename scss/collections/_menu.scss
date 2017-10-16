@@ -1163,7 +1163,7 @@ Floated Menu / Item
 .ui.icon.menu .item {
   height: auto;
   text-align: center;
-  color: $black;
+  color: blackTextColor;
 }
 
 /* Icon */
@@ -1285,57 +1285,57 @@ Floated Menu / Item
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
   border-color: $red !important;
-  color: $red !important;
+  color: $redTextColor !important;
 }
 .ui.menu .orange.active.item,
 .ui.orange.menu .active.item {
   border-color: $orange !important;
-  color: $orange !important;
+  color: $orangeTextColor !important;
 }
 .ui.menu .yellow.active.item,
 .ui.yellow.menu .active.item {
   border-color: $yellow !important;
-  color: $yellow !important;
+  color: $yellowTextColor !important;
 }
 .ui.menu .olive.active.item,
 .ui.olive.menu .active.item {
   border-color: $olive !important;
-  color: $olive !important;
+  color: $oliveTextColor !important;
 }
 .ui.menu .green.active.item,
 .ui.green.menu .active.item {
   border-color: $green !important;
-  color: $green !important;
+  color: $greenTextColor !important;
 }
 .ui.menu .teal.active.item,
 .ui.teal.menu .active.item {
   border-color: $teal !important;
-  color: $teal !important;
+  color: $tealTextColor !important;
 }
 .ui.menu .blue.active.item,
 .ui.blue.menu .active.item {
   border-color: $blue !important;
-  color: $blue !important;
+  color: $blueTextColor !important;
 }
 .ui.menu .violet.active.item,
 .ui.violet.menu .active.item {
   border-color: $violet !important;
-  color: $violet !important;
+  color: $violetTextColor !important;
 }
 .ui.menu .purple.active.item,
 .ui.purple.menu .active.item {
   border-color: $purple !important;
-  color: $purple !important;
+  color: $purpleTextColor !important;
 }
 .ui.menu .pink.active.item,
 .ui.pink.menu .active.item {
   border-color: $pink !important;
-  color: $pink !important;
+  color: $pinkTextColor !important;
 }
 .ui.menu .brown.active.item,
 .ui.brown.menu .active.item {
   border-color: $brown !important;
-  color: $brown !important;
+  color: $brownTextColor !important;
 }
 .ui.menu .grey.active.item,
 .ui.grey.menu .active.item {

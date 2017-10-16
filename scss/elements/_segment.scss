@@ -683,7 +683,7 @@
 
 /* Secondary */
 .ui.secondary.segment {
-  background: #F3F4F5;
+  background: $darkWhite;
   color: rgba(0, 0, 0, 0.6);
 }
 .ui.secondary.inverted.segment {
@@ -694,7 +694,7 @@
 
 /* Tertiary */
 .ui.tertiary.segment {
-  background: #DCDDDE;
+  background: $lightGrey;
   color: rgba(0, 0, 0, 0.6);
 }
 .ui.tertiary.inverted.segment {

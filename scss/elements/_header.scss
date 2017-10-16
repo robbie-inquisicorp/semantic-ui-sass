@@ -301,14 +301,14 @@ h5.ui.header .sub.header {
   color: rgba(255, 255, 255, 0.8);
 }
 .ui.inverted.attached.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: $lightBlack -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: $lightBlack linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
   border-color: transparent;
 }
 .ui.inverted.block.header {
-  background: #545454 -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-  background: #545454 linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: $lightBlack -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05));
+  background: $lightBlack linear-gradient(transparent, rgba(0, 0, 0, 0.05));
   box-shadow: none;
 }
 .ui.inverted.block.header {
@@ -323,7 +323,7 @@ h5.ui.header .sub.header {
 /*--- Red ---*/
 
 .ui.red.header {
-  color: $red !important;
+  color: $redTextColor !important;
 }
 a.ui.red.header:hover {
   color: #d01919 !important;
@@ -334,7 +334,7 @@ a.ui.red.header:hover {
 
 /* Inverted */
 .ui.inverted.red.header {
-  color: #FF695E !important;
+  color: $lightRed !important;
 }
 a.ui.inverted.red.header:hover {
   color: #ff5144 !important;
@@ -343,7 +343,7 @@ a.ui.inverted.red.header:hover {
 /*--- Orange ---*/
 
 .ui.orange.header {
-  color: $orange !important;
+  color: $orangeTextColor !important;
 }
 a.ui.orange.header:hover {
   color: #f26202 !important;
@@ -354,7 +354,7 @@ a.ui.orange.header:hover {
 
 /* Inverted */
 .ui.inverted.orange.header {
-  color: #FF851B !important;
+  color: $lightOrange !important;
 }
 a.ui.inverted.orange.header:hover {
   color: #ff7701 !important;
@@ -363,7 +363,7 @@ a.ui.inverted.orange.header:hover {
 /*--- Olive ---*/
 
 .ui.olive.header {
-  color: $olive !important;
+  color: $oliveTextColor !important;
 }
 a.ui.olive.header:hover {
   color: #a7bd0d !important;
@@ -374,7 +374,7 @@ a.ui.olive.header:hover {
 
 /* Inverted */
 .ui.inverted.olive.header {
-  color: #D9E778 !important;
+  color: $lightOlive !important;
 }
 a.ui.inverted.olive.header:hover {
   color: #d8ea5c !important;
@@ -383,7 +383,7 @@ a.ui.inverted.olive.header:hover {
 /*--- Yellow ---*/
 
 .ui.yellow.header {
-  color: $yellow !important;
+  color: $yellowTextColor !important;
 }
 a.ui.yellow.header:hover {
   color: #eaae00 !important;
@@ -394,7 +394,7 @@ a.ui.yellow.header:hover {
 
 /* Inverted */
 .ui.inverted.yellow.header {
-  color: #FFE21F !important;
+  color: $lightYellow !important;
 }
 a.ui.inverted.yellow.header:hover {
   color: #ffdf05 !important;
@@ -403,7 +403,7 @@ a.ui.inverted.yellow.header:hover {
 /*--- Green ---*/
 
 .ui.green.header {
-  color: $green !important;
+  color: $greenTextColor !important;
 }
 a.ui.green.header:hover {
   color: #16ab39 !important;
@@ -414,7 +414,7 @@ a.ui.green.header:hover {
 
 /* Inverted */
 .ui.inverted.green.header {
-  color: #2ECC40 !important;
+  color: $lightGreen !important;
 }
 a.ui.inverted.green.header:hover {
   color: #22be34 !important;
@@ -423,7 +423,7 @@ a.ui.inverted.green.header:hover {
 /*--- Teal ---*/
 
 .ui.teal.header {
-  color: $teal !important;
+  color: $tealTextColor !important;
 }
 a.ui.teal.header:hover {
   color: #009c95 !important;
@@ -434,7 +434,7 @@ a.ui.teal.header:hover {
 
 /* Inverted */
 .ui.inverted.teal.header {
-  color: #6DFFFF !important;
+  color: $lightTeal !important;
 }
 a.ui.inverted.teal.header:hover {
   color: #54ffff !important;
@@ -443,7 +443,7 @@ a.ui.inverted.teal.header:hover {
 /*--- Blue ---*/
 
 .ui.blue.header {
-  color: $blue !important;
+  color: $blueTextColor !important;
 }
 a.ui.blue.header:hover {
   color: #1678c2 !important;
@@ -454,7 +454,7 @@ a.ui.blue.header:hover {
 
 /* Inverted */
 .ui.inverted.blue.header {
-  color: #54C8FF !important;
+  color: $lightBlue !important;
 }
 a.ui.inverted.blue.header:hover {
   color: #3ac0ff !important;
@@ -463,7 +463,7 @@ a.ui.inverted.blue.header:hover {
 /*--- Violet ---*/
 
 .ui.violet.header {
-  color: $violet !important;
+  color: $violetTextColor !important;
 }
 a.ui.violet.header:hover {
   color: #5829bb !important;
@@ -474,7 +474,7 @@ a.ui.violet.header:hover {
 
 /* Inverted */
 .ui.inverted.violet.header {
-  color: #A291FB !important;
+  color: $lightViolet !important;
 }
 a.ui.inverted.violet.header:hover {
   color: #8a73ff !important;
@@ -483,7 +483,7 @@ a.ui.inverted.violet.header:hover {
 /*--- Purple ---*/
 
 .ui.purple.header {
-  color: $purple !important;
+  color: $purpleTextColor !important;
 }
 a.ui.purple.header:hover {
   color: #9627ba !important;
@@ -494,7 +494,7 @@ a.ui.purple.header:hover {
 
 /* Inverted */
 .ui.inverted.purple.header {
-  color: #DC73FF !important;
+  color: $lightPurple !important;
 }
 a.ui.inverted.purple.header:hover {
   color: #d65aff !important;
@@ -503,7 +503,7 @@ a.ui.inverted.purple.header:hover {
 /*--- Pink ---*/
 
 .ui.pink.header {
-  color: $pink !important;
+  color: $pinkTextColor !important;
 }
 a.ui.pink.header:hover {
   color: #e61a8d !important;
@@ -514,7 +514,7 @@ a.ui.pink.header:hover {
 
 /* Inverted */
 .ui.inverted.pink.header {
-  color: #FF8EDF !important;
+  color: $lightPink !important;
 }
 a.ui.inverted.pink.header:hover {
   color: #ff74d8 !important;
@@ -523,7 +523,7 @@ a.ui.inverted.pink.header:hover {
 /*--- Brown ---*/
 
 .ui.brown.header {
-  color: $brown !important;
+  color: $brownTextColor !important;
 }
 a.ui.brown.header:hover {
   color: #975b33 !important;
@@ -534,7 +534,7 @@ a.ui.brown.header:hover {
 
 /* Inverted */
 .ui.inverted.brown.header {
-  color: #D67C1C !important;
+  color: $lightBrown !important;
 }
 a.ui.inverted.brown.header:hover {
   color: #c86f11 !important;
@@ -554,7 +554,7 @@ a.ui.grey.header:hover {
 
 /* Inverted */
 .ui.inverted.grey.header {
-  color: #DCDDDE !important;
+  color: $lightGrey !important;
 }
 a.ui.inverted.grey.header:hover {
   color: #cfd0d2 !important;
@@ -630,7 +630,7 @@ a.ui.inverted.grey.header:hover {
 --------------------*/
 
 .ui.block.header {
-  background: #F3F4F5;
+  background: $darkWhite;
   padding: 0.78571429rem 1rem;
   box-shadow: none;
   border: 1px solid #D4D4D5;
@@ -665,7 +665,7 @@ a.ui.inverted.grey.header:hover {
   border: 1px solid #D4D4D5;
 }
 .ui.attached.block.header {
-  background: #F3F4F5;
+  background: $darkWhite;
 }
 .ui.attached:not(.top):not(.bottom).header {
   margin-top: 0em;

@@ -217,10 +217,10 @@ i.inverted.icon {
 
 /* Red */
 i.red.icon {
-  color: $red !important;
+  color: $redTextColor !important;
 }
 i.inverted.red.icon {
-  color: #FF695E !important;
+  color: $lightRed !important;
 }
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
@@ -230,10 +230,10 @@ i.inverted.circular.red.icon {
 
 /* Orange */
 i.orange.icon {
-  color: $orange !important;
+  color: $orangeTextColor !important;
 }
 i.inverted.orange.icon {
-  color: #FF851B !important;
+  color: $lightOrange !important;
 }
 i.inverted.bordered.orange.icon,
 i.inverted.circular.orange.icon {
@@ -243,10 +243,10 @@ i.inverted.circular.orange.icon {
 
 /* Yellow */
 i.yellow.icon {
-  color: $yellow !important;
+  color: $yellowTextColor !important;
 }
 i.inverted.yellow.icon {
-  color: #FFE21F !important;
+  color: $lightYellow !important;
 }
 i.inverted.bordered.yellow.icon,
 i.inverted.circular.yellow.icon {
@@ -256,10 +256,10 @@ i.inverted.circular.yellow.icon {
 
 /* Olive */
 i.olive.icon {
-  color: $olive !important;
+  color: $oliveTextColor !important;
 }
 i.inverted.olive.icon {
-  color: #D9E778 !important;
+  color: $lightOlive !important;
 }
 i.inverted.bordered.olive.icon,
 i.inverted.circular.olive.icon {
@@ -269,10 +269,10 @@ i.inverted.circular.olive.icon {
 
 /* Green */
 i.green.icon {
-  color: $green !important;
+  color: $greenTextColor !important;
 }
 i.inverted.green.icon {
-  color: #2ECC40 !important;
+  color: $lightGreen !important;
 }
 i.inverted.bordered.green.icon,
 i.inverted.circular.green.icon {
@@ -282,10 +282,10 @@ i.inverted.circular.green.icon {
 
 /* Teal */
 i.teal.icon {
-  color: $teal !important;
+  color: $tealTextColor !important;
 }
 i.inverted.teal.icon {
-  color: #6DFFFF !important;
+  color: $lightTeal !important;
 }
 i.inverted.bordered.teal.icon,
 i.inverted.circular.teal.icon {
@@ -295,10 +295,10 @@ i.inverted.circular.teal.icon {
 
 /* Blue */
 i.blue.icon {
-  color: $blue !important;
+  color: $blueTextColor !important;
 }
 i.inverted.blue.icon {
-  color: #54C8FF !important;
+  color: $lightBlue !important;
 }
 i.inverted.bordered.blue.icon,
 i.inverted.circular.blue.icon {
@@ -308,10 +308,10 @@ i.inverted.circular.blue.icon {
 
 /* Violet */
 i.violet.icon {
-  color: $violet !important;
+  color: $violetTextColor !important;
 }
 i.inverted.violet.icon {
-  color: #A291FB !important;
+  color: $lightViolet !important;
 }
 i.inverted.bordered.violet.icon,
 i.inverted.circular.violet.icon {
@@ -321,10 +321,10 @@ i.inverted.circular.violet.icon {
 
 /* Purple */
 i.purple.icon {
-  color: $purple !important;
+  color: $purpleTextColor !important;
 }
 i.inverted.purple.icon {
-  color: #DC73FF !important;
+  color: $lightPurple !important;
 }
 i.inverted.bordered.purple.icon,
 i.inverted.circular.purple.icon {
@@ -334,10 +334,10 @@ i.inverted.circular.purple.icon {
 
 /* Pink */
 i.pink.icon {
-  color: $pink !important;
+  color: $pinkTextColor !important;
 }
 i.inverted.pink.icon {
-  color: #FF8EDF !important;
+  color: $lightPink !important;
 }
 i.inverted.bordered.pink.icon,
 i.inverted.circular.pink.icon {
@@ -347,10 +347,10 @@ i.inverted.circular.pink.icon {
 
 /* Brown */
 i.brown.icon {
-  color: $brown !important;
+  color: $brownTextColor !important;
 }
 i.inverted.brown.icon {
-  color: #D67C1C !important;
+  color: $lightBrown !important;
 }
 i.inverted.bordered.brown.icon,
 i.inverted.circular.brown.icon {
@@ -363,7 +363,7 @@ i.grey.icon {
   color: $grey !important;
 }
 i.inverted.grey.icon {
-  color: #DCDDDE !important;
+  color: $lightGrey !important;
 }
 i.inverted.bordered.grey.icon,
 i.inverted.circular.grey.icon {
@@ -373,10 +373,10 @@ i.inverted.circular.grey.icon {
 
 /* Black */
 i.black.icon {
-  color: $black !important;
+  color: blackTextColor !important;
 }
 i.inverted.black.icon {
-  color: #545454 !important;
+  color: $lightBlack !important;
 }
 i.inverted.bordered.black.icon,
 i.inverted.circular.black.icon {

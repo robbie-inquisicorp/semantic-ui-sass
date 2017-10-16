@@ -141,7 +141,7 @@
 
 .ui.checkbox .box:active::before,
 .ui.checkbox label:active::before {
-  background: #F9FAFB;
+  background: $offWhite;
   border-color: rgba(34, 36, 38, 0.35);
 }
 .ui.checkbox .box:active::after,
@@ -236,7 +236,7 @@
 .ui.checkbox input[disabled] ~ label {
   cursor: default !important;
   opacity: 0.5;
-  color: #000000;
+  color: $fullBlack;
 }
 
 /*--------------
@@ -437,7 +437,7 @@
 }
 .ui.slider.checkbox input:checked ~ .box:before,
 .ui.slider.checkbox input:checked ~ label:before {
-  background-color: #545454 !important;
+  background-color: $lightBlack !important;
 }
 .ui.slider.checkbox input:checked ~ .box:after,
 .ui.slider.checkbox input:checked ~ label:after {
@@ -451,7 +451,7 @@
 }
 .ui.slider.checkbox input:focus:checked ~ .box:before,
 .ui.slider.checkbox input:focus:checked ~ label:before {
-  background-color: #000000 !important;
+  background-color: $fullBlack !important;
 }
 
 /*--------------
