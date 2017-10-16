@@ -269,80 +269,80 @@
 
 /* Positive */
 .ui.positive.message {
-  background-color: #FCFFF5;
-  color: #2C662D;
+  background-color: $positiveBackgroundColor;
+  color: $positiveTextColor;
 }
 .ui.positive.message,
 .ui.attached.positive.message {
-  box-shadow: 0px 0px 0px 1px #A3C293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $positiveBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.positive.message .header {
-  color: #1A531B;
+  color: $positiveHeaderColor;
 }
 
 /* Negative */
 .ui.negative.message {
-  background-color: #FFF6F6;
-  color: #9F3A38;
+  background-color: $negativeBackgroundColor;
+  color: $negativeTextColor;
 }
 .ui.negative.message,
 .ui.attached.negative.message {
-  box-shadow: 0px 0px 0px 1px #E0B4B4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $negativeBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.negative.message .header {
-  color: #912D2B;
+  color: $negativeHeaderColor;
 }
 
 /* Info */
 .ui.info.message {
-  background-color: #F8FFFF;
-  color: #276F86;
+  background-color: $infoBackgroundColor;
+  color: $infoTextColor;
 }
 .ui.info.message,
 .ui.attached.info.message {
-  box-shadow: 0px 0px 0px 1px #A9D5DE inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $infoBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.info.message .header {
-  color: #0E566C;
+  color: $infoHeaderColor;
 }
 
 /* Warning */
 .ui.warning.message {
-  background-color: #FFFAF3;
-  color: #573A08;
+  background-color: $warningBackgroundColor;
+  color: $warningTextColor;
 }
 .ui.warning.message,
 .ui.attached.warning.message {
-  box-shadow: 0px 0px 0px 1px #C9BA9B inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $warningBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.warning.message .header {
-  color: #794B02;
+  color: $warningHeaderColor;
 }
 
 /* Error */
 .ui.error.message {
-  background-color: #FFF6F6;
-  color: #9F3A38;
+  background-color: $negativeBackgroundColor;
+  color: $negativeTextColor;
 }
 .ui.error.message,
 .ui.attached.error.message {
-  box-shadow: 0px 0px 0px 1px #E0B4B4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $negativeBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.error.message .header {
-  color: #912D2B;
+  color: $negativeHeaderColor;
 }
 
 /* Success */
 .ui.success.message {
-  background-color: #FCFFF5;
-  color: #2C662D;
+  background-color: $positiveBackgroundColor;
+  color: $positiveTextColor;
 }
 .ui.success.message,
 .ui.attached.success.message {
-  box-shadow: 0px 0px 0px 1px #A3C293 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px $positiveBorderColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.success.message .header {
-  color: #1A531B;
+  color: $positiveHeaderColor;
 }
 
 /* Colors */
@@ -357,7 +357,7 @@
   box-shadow: 0px 0px 0px 1px $red inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
-  color: #c82121;
+  color: $redHeaderColor;
 }
 .ui.orange.message {
   background-color: $orangeBackground;
@@ -365,7 +365,7 @@
   box-shadow: 0px 0px 0px 1px $orange inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.orange.message .header {
-  color: #e7640d;
+  color: $orangeHeaderColor;
 }
 .ui.yellow.message {
   background-color: $yellowBackground;
@@ -373,7 +373,7 @@
   box-shadow: 0px 0px 0px 1px $yellowTextColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.yellow.message .header {
-  color: #9c6f04;
+  color: $yellowHeaderColor;
 }
 .ui.olive.message {
   background-color: $oliveBackground;
@@ -381,7 +381,7 @@
   box-shadow: 0px 0px 0px 1px $oliveTextColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.olive.message .header {
-  color: #7aa61a;
+  color: $oliveHeaderColor;
 }
 .ui.green.message {
   background-color: $greenBackground;
@@ -389,7 +389,7 @@
   box-shadow: 0px 0px 0px 1px $greenTextColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.green.message .header {
-  color: #1aa62a;
+  color: $greenHeaderColor;
 }
 .ui.teal.message {
   background-color: $tealBackground;
@@ -397,7 +397,7 @@
   box-shadow: 0px 0px 0px 1px $tealTextColor inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.teal.message .header {
-  color: #0e8c8c;
+  color: $tealHeaderColor;
 }
 .ui.blue.message {
   background-color: $blueBackground;
@@ -405,7 +405,7 @@
   box-shadow: 0px 0px 0px 1px $blue inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.blue.message .header {
-  color: #1e77ba;
+  color: $blueHeaderColor;
 }
 .ui.violet.message {
   background-color: $violetBackground;
@@ -413,7 +413,7 @@
   box-shadow: 0px 0px 0px 1px $violet inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.violet.message .header {
-  color: #5a30b5;
+  color: $violetHeaderColor;
 }
 .ui.purple.message {
   background-color: $purpleBackground;
@@ -421,7 +421,7 @@
   box-shadow: 0px 0px 0px 1px $purple inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
-  color: #922eb4;
+  color: $purpleHeaderColor;
 }
 .ui.pink.message {
   background-color: $pinkBackground;
@@ -429,7 +429,7 @@
   box-shadow: 0px 0px 0px 1px $pink inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.pink.message .header {
-  color: #dd238b;
+  color: $pinkHeaderColor;
 }
 .ui.brown.message {
   background-color: $brownBackground;
@@ -437,7 +437,7 @@
   box-shadow: 0px 0px 0px 1px $brown inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.brown.message .header {
-  color: #935b38;
+  color: $brownHeaderColor;
 }
 
 /*--------------

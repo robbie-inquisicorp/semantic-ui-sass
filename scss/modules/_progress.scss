@@ -165,7 +165,7 @@
 
 /* Indicating Success */
 .ui.indicating.progress.success .label {
-  color: #1A531B;
+  color: $positiveHeaderColor;
 }
 
 
@@ -187,7 +187,7 @@
           animation: none !important;
 }
 .ui.progress.success > .label {
-  color: #1A531B;
+  color: $positiveHeaderColor;
 }
 
 /*--------------
@@ -195,7 +195,7 @@
 ---------------*/
 
 .ui.progress.warning .bar {
-  background-color: #F2C037 !important;
+  background-color: $warningColor !important;
 }
 .ui.progress.warning .bar,
 .ui.progress.warning .bar::after {
@@ -203,7 +203,7 @@
           animation: none !important;
 }
 .ui.progress.warning > .label {
-  color: #794B02;
+  color: $warningHeaderColor;
 }
 
 /*--------------
@@ -219,7 +219,7 @@
           animation: none !important;
 }
 .ui.progress.error > .label {
-  color: #912D2B;
+  color: $negativeHeaderColor;
 }
 
 /*--------------
@@ -304,7 +304,7 @@
   color: $greenTextColor;
 }
 .ui.inverted.progress.warning > .label {
-  color: #F2C037;
+  color: $warningColor;
 }
 .ui.inverted.progress.error > .label {
   color: $redTextColor;
