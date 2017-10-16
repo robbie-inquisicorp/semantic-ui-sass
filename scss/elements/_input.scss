@@ -25,7 +25,7 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: rgba(0, 0, 0, 0.87);
+  color: $textColor;
 }
 .ui.input input {
   margin: 0em;
@@ -41,7 +41,7 @@
   padding: 0.67857143em 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: $textColor;
   border-radius: 0.28571429rem;
   -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
@@ -91,7 +91,7 @@
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: rgba(0, 0, 0, 0.87);
+  color: $textColor;
   box-shadow: none;
 }
 
