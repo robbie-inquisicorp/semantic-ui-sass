@@ -258,7 +258,7 @@
 ---------------*/
 
 .ui.black.message {
-  background-color: #1B1C1D;
+  background-color: $black;
   color: rgba(255, 255, 255, 0.9);
 }
 
@@ -348,21 +348,21 @@
 /* Colors */
 .ui.inverted.message,
 .ui.black.message {
-  background-color: #1B1C1D;
+  background-color: $black;
   color: rgba(255, 255, 255, 0.9);
 }
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #DB2828;
-  box-shadow: 0px 0px 0px 1px #DB2828 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $red;
+  box-shadow: 0px 0px 0px 1px $red inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.red.message .header {
   color: #c82121;
 }
 .ui.orange.message {
   background-color: #FFEDDE;
-  color: #F2711C;
-  box-shadow: 0px 0px 0px 1px #F2711C inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $orange;
+  box-shadow: 0px 0px 0px 1px $orange inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.orange.message .header {
   color: #e7640d;
@@ -401,40 +401,40 @@
 }
 .ui.blue.message {
   background-color: #DFF0FF;
-  color: #2185D0;
-  box-shadow: 0px 0px 0px 1px #2185D0 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $blue;
+  box-shadow: 0px 0px 0px 1px $blue inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.blue.message .header {
   color: #1e77ba;
 }
 .ui.violet.message {
   background-color: #EAE7FF;
-  color: #6435C9;
-  box-shadow: 0px 0px 0px 1px #6435C9 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $violet;
+  box-shadow: 0px 0px 0px 1px $violet inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.violet.message .header {
   color: #5a30b5;
 }
 .ui.purple.message {
   background-color: #F6E7FF;
-  color: #A333C8;
-  box-shadow: 0px 0px 0px 1px #A333C8 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $purple;
+  box-shadow: 0px 0px 0px 1px $purple inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.purple.message .header {
   color: #922eb4;
 }
 .ui.pink.message {
   background-color: #FFE3FB;
-  color: #E03997;
-  box-shadow: 0px 0px 0px 1px #E03997 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $pink;
+  box-shadow: 0px 0px 0px 1px $pink inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.pink.message .header {
   color: #dd238b;
 }
 .ui.brown.message {
   background-color: #F1E2D3;
-  color: #A5673F;
-  box-shadow: 0px 0px 0px 1px #A5673F inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  color: $brown;
+  box-shadow: 0px 0px 0px 1px $brown inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .ui.brown.message .header {
   color: #935b38;
