@@ -509,7 +509,7 @@ a.ui.active.label:ActiveHover:before {
 .ui.red.labels .label,
 .ui.red.label {
   background-color: $red !important;
-  border-color: $red !important;
+  border-color: $redBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -536,7 +536,7 @@ a.ui.red.label:hover {
 .ui.basic.red.label {
   background-color: #FFFFFF !important;
   color: $redTextColor !important;
-  border-color: $red !important;
+  border-color: $redBorderColor !important;
 }
 .ui.basic.red.labels a.label:hover,
 a.ui.basic.red.label:hover {
@@ -550,7 +550,7 @@ a.ui.basic.red.label:hover {
 .ui.orange.labels .label,
 .ui.orange.label {
   background-color: $orange !important;
-  border-color: $orange !important;
+  border-color: $orangeBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -577,7 +577,7 @@ a.ui.orange.label:hover {
 .ui.basic.orange.label {
   background-color: #FFFFFF !important;
   color: $orangeTextColor !important;
-  border-color: $orange !important;
+  border-color: $orangeBorderColor !important;
 }
 .ui.basic.orange.labels a.label:hover,
 a.ui.basic.orange.label:hover {
@@ -591,7 +591,7 @@ a.ui.basic.orange.label:hover {
 .ui.yellow.labels .label,
 .ui.yellow.label {
   background-color: $yellow !important;
-  border-color: $yellow !important;
+  border-color: $yellowBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -618,7 +618,7 @@ a.ui.yellow.label:hover {
 .ui.basic.yellow.label {
   background-color: #FFFFFF !important;
   color: $yellowTextColor !important;
-  border-color: $yellow !important;
+  border-color: $yellowBorderColor !important;
 }
 .ui.basic.yellow.labels a.label:hover,
 a.ui.basic.yellow.label:hover {
@@ -632,7 +632,7 @@ a.ui.basic.yellow.label:hover {
 .ui.olive.labels .label,
 .ui.olive.label {
   background-color: $olive !important;
-  border-color: $olive !important;
+  border-color: $oliveBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -659,7 +659,7 @@ a.ui.olive.label:hover {
 .ui.basic.olive.label {
   background-color: #FFFFFF !important;
   color: $oliveTextColor !important;
-  border-color: $olive !important;
+  border-color: $oliveBorderColor !important;
 }
 .ui.basic.olive.labels a.label:hover,
 a.ui.basic.olive.label:hover {
@@ -673,7 +673,7 @@ a.ui.basic.olive.label:hover {
 .ui.green.labels .label,
 .ui.green.label {
   background-color: $green !important;
-  border-color: $green !important;
+  border-color: $greenBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -700,7 +700,7 @@ a.ui.green.label:hover {
 .ui.basic.green.label {
   background-color: #FFFFFF !important;
   color: $greenTextColor !important;
-  border-color: $green !important;
+  border-color: $greenBorderColor !important;
 }
 .ui.basic.green.labels a.label:hover,
 a.ui.basic.green.label:hover {
@@ -714,7 +714,7 @@ a.ui.basic.green.label:hover {
 .ui.teal.labels .label,
 .ui.teal.label {
   background-color: $teal !important;
-  border-color: $teal !important;
+  border-color: $tealBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -741,7 +741,7 @@ a.ui.teal.label:hover {
 .ui.basic.teal.label {
   background-color: #FFFFFF !important;
   color: $tealTextColor !important;
-  border-color: $teal !important;
+  border-color: $tealBorderColor !important;
 }
 .ui.basic.teal.labels a.label:hover,
 a.ui.basic.teal.label:hover {
@@ -755,7 +755,7 @@ a.ui.basic.teal.label:hover {
 .ui.blue.labels .label,
 .ui.blue.label {
   background-color: $blue !important;
-  border-color: $blue !important;
+  border-color: $blueBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -782,7 +782,7 @@ a.ui.blue.label:hover {
 .ui.basic.blue.label {
   background-color: #FFFFFF !important;
   color: $blueTextColor !important;
-  border-color: $blue !important;
+  border-color: $blueBorderColor !important;
 }
 .ui.basic.blue.labels a.label:hover,
 a.ui.basic.blue.label:hover {
@@ -796,7 +796,7 @@ a.ui.basic.blue.label:hover {
 .ui.violet.labels .label,
 .ui.violet.label {
   background-color: $violet !important;
-  border-color: $violet !important;
+  border-color: $violetBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -823,7 +823,7 @@ a.ui.violet.label:hover {
 .ui.basic.violet.label {
   background-color: #FFFFFF !important;
   color: $violetTextColor !important;
-  border-color: $violet !important;
+  border-color: $violetBorderColor !important;
 }
 .ui.basic.violet.labels a.label:hover,
 a.ui.basic.violet.label:hover {
@@ -837,7 +837,7 @@ a.ui.basic.violet.label:hover {
 .ui.purple.labels .label,
 .ui.purple.label {
   background-color: $purple !important;
-  border-color: $purple !important;
+  border-color: $purpleBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -864,7 +864,7 @@ a.ui.purple.label:hover {
 .ui.basic.purple.label {
   background-color: #FFFFFF !important;
   color: $purpleTextColor !important;
-  border-color: $purple !important;
+  border-color: $purpleBorderColor !important;
 }
 .ui.basic.purple.labels a.label:hover,
 a.ui.basic.purple.label:hover {
@@ -878,7 +878,7 @@ a.ui.basic.purple.label:hover {
 .ui.pink.labels .label,
 .ui.pink.label {
   background-color: $pink !important;
-  border-color: $pink !important;
+  border-color: $pinkBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -905,7 +905,7 @@ a.ui.pink.label:hover {
 .ui.basic.pink.label {
   background-color: #FFFFFF !important;
   color: $pinkTextColor !important;
-  border-color: $pink !important;
+  border-color: $pinkBorderColor !important;
 }
 .ui.basic.pink.labels a.label:hover,
 a.ui.basic.pink.label:hover {
@@ -919,7 +919,7 @@ a.ui.basic.pink.label:hover {
 .ui.brown.labels .label,
 .ui.brown.label {
   background-color: $brown !important;
-  border-color: $brown !important;
+  border-color: $brownBorderColor !important;
   color: #FFFFFF !important;
 }
 
@@ -946,7 +946,7 @@ a.ui.brown.label:hover {
 .ui.basic.brown.label {
   background-color: #FFFFFF !important;
   color: $brownTextColor !important;
-  border-color: $brown !important;
+  border-color: $brownBorderColor !important;
 }
 .ui.basic.brown.labels a.label:hover,
 a.ui.basic.brown.label:hover {

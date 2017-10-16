@@ -506,7 +506,7 @@
 
 /* Red */
 .ui.red.segment:not(.inverted) {
-  border-top: 2px solid $red !important;
+  border-top: 2px solid $redBorderColor !important;
 }
 .ui.inverted.red.segment {
   background-color: $red !important;
@@ -515,7 +515,7 @@
 
 /* Orange */
 .ui.orange.segment:not(.inverted) {
-  border-top: 2px solid $orange !important;
+  border-top: 2px solid $orangeBorderColor !important;
 }
 .ui.inverted.orange.segment {
   background-color: $orange !important;
@@ -524,7 +524,7 @@
 
 /* Yellow */
 .ui.yellow.segment:not(.inverted) {
-  border-top: 2px solid $yellow !important;
+  border-top: 2px solid $yellowBorderColor !important;
 }
 .ui.inverted.yellow.segment {
   background-color: $yellow !important;
@@ -533,7 +533,7 @@
 
 /* Olive */
 .ui.olive.segment:not(.inverted) {
-  border-top: 2px solid $olive !important;
+  border-top: 2px solid $oliveBorderColor !important;
 }
 .ui.inverted.olive.segment {
   background-color: $olive !important;
@@ -542,7 +542,7 @@
 
 /* Green */
 .ui.green.segment:not(.inverted) {
-  border-top: 2px solid $green !important;
+  border-top: 2px solid $greenBorderColor !important;
 }
 .ui.inverted.green.segment {
   background-color: $green !important;
@@ -551,7 +551,7 @@
 
 /* Teal */
 .ui.teal.segment:not(.inverted) {
-  border-top: 2px solid $teal !important;
+  border-top: 2px solid $tealBorderColor !important;
 }
 .ui.inverted.teal.segment {
   background-color: $teal !important;
@@ -560,7 +560,7 @@
 
 /* Blue */
 .ui.blue.segment:not(.inverted) {
-  border-top: 2px solid $blue !important;
+  border-top: 2px solid $blueBorderColor !important;
 }
 .ui.inverted.blue.segment {
   background-color: $blue !important;
@@ -569,7 +569,7 @@
 
 /* Violet */
 .ui.violet.segment:not(.inverted) {
-  border-top: 2px solid $violet !important;
+  border-top: 2px solid $violetBorderColor !important;
 }
 .ui.inverted.violet.segment {
   background-color: $violet !important;
@@ -578,7 +578,7 @@
 
 /* Purple */
 .ui.purple.segment:not(.inverted) {
-  border-top: 2px solid $purple !important;
+  border-top: 2px solid $purpleBorderColor !important;
 }
 .ui.inverted.purple.segment {
   background-color: $purple !important;
@@ -587,7 +587,7 @@
 
 /* Pink */
 .ui.pink.segment:not(.inverted) {
-  border-top: 2px solid $pink !important;
+  border-top: 2px solid $pinkBorderColor !important;
 }
 .ui.inverted.pink.segment {
   background-color: $pink !important;
@@ -596,7 +596,7 @@
 
 /* Brown */
 .ui.brown.segment:not(.inverted) {
-  border-top: 2px solid $brown !important;
+  border-top: 2px solid $brownBorderColor !important;
 }
 .ui.inverted.brown.segment {
   background-color: $brown !important;
